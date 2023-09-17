@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3fcf0af6ca.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Countdown FlipClock</title>
     <link rel="stylesheet" href="app.css" />
   </head>
@@ -14,7 +26,7 @@
         <input
           class="search-city-input"
           type="text"
-          placeholder="type city"
+          placeholder="type city.."
           id="search-input"
         />
         <input
@@ -23,12 +35,9 @@
           value="search"
           id="search-input"
         />
-        <input
-          class="current-location-pin"
-          type="submit"
-          value="📍"
-          id="search-input"
-        />
+        <button class="current-location-pin" type="submit" id="search-input">
+          <i class="fa-solid fa-location-dot"></i>
+        </button>
       </form>
       <img
         class="world-map"
