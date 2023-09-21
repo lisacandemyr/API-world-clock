@@ -26,12 +26,14 @@
         <input
           class="search-city-input"
           type="text"
+          name="text"
           placeholder="type city.."
           id="search-input"
         />
         <input
           class="search-city-button"
           type="submit"
+          name="submit"
           value="search"
           id="search-input"
         />
@@ -45,83 +47,29 @@
         alt="world-map"
       />
       <h1 class="city">city.</h1>
-      <div class="countdown">
-        <div class="time-section" id="hours">
-          <div class="time-group">
-            <div class="time-segment">
-              <div class="segment-display">
-                <div class="segment-display__top"></div>
-                <div class="segment-display__bottom"></div>
-                <div class="segment-overlay">
-                  <div class="segment-overlay__top"></div>
-                  <div class="segment-overlay__bottom"></div>
-                </div>
-              </div>
-            </div>
-            <div class="time-segment">
-              <div class="segment-display">
-                <div class="segment-display__top"></div>
-                <div class="segment-display__bottom"></div>
-                <div class="segment-overlay">
-                  <div class="segment-overlay__top"></div>
-                  <div class="segment-overlay__bottom"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p class="time-description">hours</p>
-        </div>
+      <div class="time-section">
+        <div class="hours" id="hours"></div>
         <p class="time-seperator">:</p>
-        <div class="time-section" id="minutes">
-          <div class="time-group">
-            <div class="time-segment">
-              <div class="segment-display">
-                <div class="segment-display__top"></div>
-                <div class="segment-display__bottom"></div>
-                <div class="segment-overlay">
-                  <div class="segment-overlay__top"></div>
-                  <div class="segment-overlay__bottom"></div>
-                </div>
-              </div>
-            </div>
-            <div class="time-segment">
-              <div class="segment-display">
-                <div class="segment-display__top"></div>
-                <div class="segment-display__bottom"></div>
-                <div class="segment-overlay">
-                  <div class="segment-overlay__top"></div>
-                  <div class="segment-overlay__bottom"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p class="time-description">minutes</p>
-        </div>
+        <div class="minutes" id="minutes"></div>
         <p class="time-seperator">:</p>
-        <div class="time-section" id="seconds">
-          <div class="time-group">
-            <div class="time-segment">
-              <div class="segment-display">
-                <div class="segment-display__top"></div>
-                <div class="segment-display__bottom"></div>
-                <div class="segment-overlay">
-                  <div class="segment-overlay__top"></div>
-                  <div class="segment-overlay__bottom"></div>
-                </div>
-              </div>
-            </div>
-            <div class="time-segment">
-              <div class="segment-display">
-                <div class="segment-display__top"></div>
-                <div class="segment-display__bottom"></div>
-                <div class="segment-overlay">
-                  <div class="segment-overlay__top"></div>
-                  <div class="segment-overlay__bottom"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p class="time-description">seconds</p>
+        <div class="seconds" id="seconds"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <ul class="city-search-history">
+            <li>first city.</li>
+            <li>second city.</li>
+            <li>third city.</li>
+            <li>fourth city.</li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="time-search-history">
+            <li>11:11:11</li>
+            <li>22:22:22</li>
+            <li>33:33:33</li>
+            <li>44:44:44</li>
+          </ul>
         </div>
       </div>
     </div>
