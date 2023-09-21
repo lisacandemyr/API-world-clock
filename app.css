@@ -131,3 +131,17 @@ body {
   left: -50px;
   width: 100px;
 }
+
+.select-country {
+  color: whitesmoke;
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+  top: -715px;
+}
+
+#city {
+  border-radius: 4px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 3px;
+  padding: 0 10px;
+}

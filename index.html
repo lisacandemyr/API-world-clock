@@ -12,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <script
       src="https://kit.fontawesome.com/3fcf0af6ca.js"
       crossorigin="anonymous"
@@ -54,23 +56,16 @@
         <p class="time-seperator">:</p>
         <div class="seconds" id="seconds"></div>
       </div>
-      <div class="row">
-        <div class="col">
-          <ul class="city-search-history">
-            <li>first city.</li>
-            <li>second city.</li>
-            <li>third city.</li>
-            <li>fourth city.</li>
-          </ul>
-        </div>
-        <div class="col">
-          <ul class="time-search-history">
-            <li>11:11:11</li>
-            <li>22:22:22</li>
-            <li>33:33:33</li>
-            <li>44:44:44</li>
-          </ul>
-        </div>
+
+      <div class="select-country">
+        <label for="city">select a city / country</label>
+        <br />
+        <select name="city" id="city">
+          <option value="">choose an option</option>
+          <option value="paris">paris 🇫🇷</option>
+          <option value="tokyo">tokyo 🇯🇵</option>
+          <option value="sydney">sydney 🇦🇺</option>
+        </select>
       </div>
     </div>
     <script src="app.js"></script>
