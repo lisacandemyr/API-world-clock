@@ -6,6 +6,10 @@ body {
   overflow: hidden;
 }
 
+.container {
+  height: 625px;
+}
+
 .screen-background {
   background: linear-gradient(
     109.6deg,
@@ -45,9 +49,23 @@ h1 {
 .world-map {
   margin: 0 auto;
   position: relative;
-  top: -540px;
+  top: -530px;
   width: 250px;
   opacity: 0.4;
+}
+
+.fa-map-pin {
+  color: #c1c161;
+  position: relative;
+  top: -775px;
+  left: 5px;
+}
+
+.fa-map-pin:hover {
+  transform: scale(1.8);
+  transition: all 300ms ease-in-out;
+  color: whitesmoke;
+  cursor: pointer;
 }
 
 h2 {
@@ -63,7 +81,7 @@ h2 {
 .cities {
   margin: 0 auto;
   position: relative;
-  top: -650px;
+  top: -660px;
   width: 305px;
 }
 
@@ -107,6 +125,5 @@ a {
 
 .credit {
   font-family: "Roboto Condensed", sans-serif;
-  position: relative;
-  top: -600px;
+  margin: 10px;
 }
