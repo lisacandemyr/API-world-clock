@@ -3,56 +3,6 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-}
-
-h2,
-.date {
-  color: whitesmoke;
-  font-family: "Roboto Condensed", sans-serif;
-  line-height: 5px;
-  text-align: left;
-  position: relative;
-  left: 10px;
-}
-
-.date {
-  color: #c1c161;
-  text-transform: lowercase;
-}
-
-a {
-  color: #c1c161;
-  text-decoration: none;
-}
-
-hr {
-  position: relative;
-  left: -1px;
-  opacity: 0.2;
-  width: 305px;
-}
-
-small {
-  font-size: 15px;
-}
-
-.suggested-cities {
-  margin: 0 auto;
-  position: relative;
-  top: -670px;
-  width: 305px;
-}
-
-.time {
-  color: whitesmoke;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 30px;
-  line-height: 5px;
-  position: relative;
-  top: -19px;
-  right: 10px;
-  text-align: right;
 }
 
 .screen-background {
@@ -70,130 +20,96 @@ small {
   text-align: center;
 }
 
-.world-map {
-  margin: 0 auto;
-  position: relative;
-  top: -580px;
-  width: 250px;
-  opacity: 0.5;
-}
-
-.search-top-bar {
-  position: relative;
-  top: -625px;
-}
-
-.search-city-input {
-  background: whitesmoke;
-  border-radius: 4px 0 0 4px;
-  border-style: none;
-  font-family: "Roboto Condensed", sans-serif;
-  padding: 5px 10px;
-  position: relative;
-  left: -5px;
-}
-
-.search-city-button {
-  background: #c1c161;
+h1 {
   color: whitesmoke;
-  margin: 0;
-  padding: 5px 10px;
-  border-radius: 0 4px 4px 0;
-  border-style: none;
   font-family: "Roboto Condensed", sans-serif;
+  font-size: 40px;
   position: relative;
-  left: -10px;
-}
-
-.search-city-button:hover {
-  background: #8d8c8c;
-  color: whitesmoke;
-  cursor: pointer;
-  transition: all 200ms ease-in-out;
-}
-
-.current-location-pin {
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  border-style: none;
-  line-height: 0;
-  padding: 10px 11px;
-  position: relative;
-  right: -10px;
-}
-
-.current-location-pin:hover {
-  background: #c1c161;
-  cursor: pointer;
-  transform: scale(1.5);
-  transition: all 200ms ease-in-out;
-}
-
-.fa-location-dot {
-  color: rgb(63, 61, 61);
+  top: -820px;
 }
 
 .city {
-  color: whitesmoke;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 50px;
   position: relative;
-  top: -730px;
+  top: -850px;
+  background: #c1c161;
+  color: whitesmoke;
+  border-style: none;
+  border-radius: 4px;
+  width: 183px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 2px 10px;
 }
 
-.time-seperator {
-  color: whitesmoke;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 18px;
-  font-weight: 900;
+.world-map {
+  margin: 0 auto;
+  position: relative;
+  top: -540px;
+  width: 250px;
+  opacity: 0.4;
 }
 
-.time-description {
+.listed-cities {
+  position: relative;
+  top: 25px;
+}
+
+h2 {
   color: whitesmoke;
   font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+  left: 10px;
+  line-height: 5px;
+  text-align: left;
+}
+
+.cities {
+  margin: 0 auto;
+  position: relative;
+  top: -680px;
+  width: 305px;
+}
+
+.date {
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 5px;
+  text-align: left;
+  position: relative;
+  left: 10px;
+  color: #c1c161;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.time {
+  color: whitesmoke;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px;
+  line-height: 5px;
+  position: relative;
+  top: -19px;
+  right: 10px;
+  text-align: right;
+}
+
+small {
   font-size: 15px;
 }
 
-.city-search-history,
-.time-search-history {
-  color: whitesmoke;
-  font-family: "Roboto Condensed", sans-serif;
-  list-style: none;
+hr {
   position: relative;
-  top: -600px;
+  left: -1px;
+  opacity: 0.2;
+  width: 305px;
 }
 
-.time-section {
-  color: whitesmoke;
-  display: flex;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 50px;
-  gap: 10px;
-  margin: 0 auto;
-  position: relative;
-  top: -695px;
-  left: -50px;
-  width: 100px;
-}
-
-.select-city {
-  font-family: "Roboto Condensed", sans-serif;
-  position: relative;
-  top: -983.5px;
-  left: -65px;
+a {
+  color: #c1c161;
+  text-decoration: none;
 }
 
 .credit {
   font-family: "Roboto Condensed", sans-serif;
   position: relative;
-  top: -635px;
-}
-
-#city {
-  background: #c1c161;
-  color: whitesmoke;
-  border-style: none;
-  border-radius: 0 0 4px 4px;
-  font-family: "Roboto Condensed", sans-serif;
-  padding: 0 10px;
+  top: -535px;
 }
