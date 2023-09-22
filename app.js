@@ -7,6 +7,39 @@ function updateClock() {
   document.querySelector("#hours").innerHTML = hours;
   document.querySelector("#minutes").innerHTML = minutes;
   document.querySelector("#seconds").innerHTML = seconds;
+
+  let losAngeles = document.querySelector("#los-angeles");
+  let losAngelesDateElement = document.querySelector("#los-angeles-date");
+  let losAngelesTimeElement = document.querySelector("#los-angeles-time");
+  let losAngelesTime = moment().tz("America/Los_Angeles");
+
+  losAngeles.innerHTML = "los angeles";
+  losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM Do YYYY");
+  losAngelesTimeElement.innerHTML = losAngelesTime.format(
+    "hh:mm:ss [<small>]A[</small>]"
+  );
+
+  let amsterdam = document.querySelector("#amsterdam");
+  let amsterdamDateElement = document.querySelector("#amsterdam-date");
+  let amsterdamTimeElement = document.querySelector("#amsterdam-time");
+  let amsterdamTime = moment().tz("Europe/Amsterdam");
+
+  amsterdam.innerHTML = "amsterdam";
+  amsterdamDateElement.innerHTML = amsterdamTime.format("MMMM Do YYYY");
+  amsterdamTimeElement.innerHTML = amsterdamTime.format(
+    "hh:mm:ss [<small>]A[</small>]"
+  );
+
+  let hongKong = document.querySelector("#hong-kong");
+  let hongKongDateElement = document.querySelector("#hong-kong-date");
+  let hongKongTimeElement = document.querySelector("#hong-kong-time");
+  let hongKongTime = moment().tz("Asia/Hong_Kong");
+
+  hongKong.innerHTML = "hong kong";
+  hongKongDateElement.innerHTML = hongKongTime.format("MMMM Do YYYY");
+  hongKongTimeElement.innerHTML = hongKongTime.format(
+    "hh:mm:ss [<small>]A[</small>]"
+  );
 }
 
 updateClock();

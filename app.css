@@ -6,13 +6,19 @@ body {
   overflow: hidden;
 }
 
-h2 {
+h2,
+.date {
   color: whitesmoke;
   font-family: "Roboto Condensed", sans-serif;
   line-height: 5px;
   text-align: left;
   position: relative;
   left: 10px;
+}
+
+.date {
+  color: #c1c161;
+  text-transform: lowercase;
 }
 
 a {
@@ -27,24 +33,15 @@ hr {
   width: 305px;
 }
 
-span {
+small {
   font-size: 15px;
 }
 
 .suggested-cities {
   margin: 0 auto;
   position: relative;
-  top: -700px;
+  top: -670px;
   width: 305px;
-}
-
-.date {
-  color: #c1c161;
-  font-family: "Roboto Condensed", sans-serif;
-  line-height: 5px;
-  position: relative;
-  left: 10px;
-  text-align: left;
 }
 
 .time {
@@ -157,14 +154,7 @@ span {
   font-size: 15px;
 }
 
-.city-search-history {
-  color: whitesmoke;
-  font-family: "Roboto Condensed", sans-serif;
-  list-style: none;
-  position: relative;
-  top: -600px;
-}
-
+.city-search-history,
 .time-search-history {
   color: whitesmoke;
   font-family: "Roboto Condensed", sans-serif;
@@ -196,7 +186,7 @@ span {
 .credit {
   font-family: "Roboto Condensed", sans-serif;
   position: relative;
-  top: -645px;
+  top: -635px;
 }
 
 #city {
