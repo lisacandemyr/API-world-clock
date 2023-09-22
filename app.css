@@ -3,6 +3,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .screen-background {
@@ -107,5 +108,5 @@ a {
 .credit {
   font-family: "Roboto Condensed", sans-serif;
   position: relative;
-  top: -535px;
+  top: -600px;
 }
