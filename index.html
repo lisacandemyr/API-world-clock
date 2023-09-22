@@ -27,14 +27,18 @@
         src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/097/482/original/worldmap_png.png?1694962939"
         alt="world-map"
       />
-      <h1>world clock.</h1>
+      <h1><a class="world-clock-link" href="index.html">world clock.</a></h1>
       <div class="select-city-menu">
         <select class="city" id="city">
-          <option value="">select a city</option>
+          <option class="placeholder" value="">select a city</option>
           <option value="current">current location</option>
-          <option value="Europe/Paris">paris 🇫🇷</option>
-          <option value="Asia/Tokyo">tokyo 🇯🇵</option>
-          <option value="Australia/Sydney">sydney 🇦🇺</option>
+          <option value="Europe/Paris">paris [bonjour]</option>
+          <option value="Asia/Tokyo">tokyo [kon'nichiwa]</option>
+          <option value="Australia/Sydney">sydney [g'day mate]</option>
+          <option value="Europe/Copenhagen">copenhagen [hej]</option>
+          <option value="Europe/Tallinn">tallin [tere]</option>
+          <option value="Asia/Kuala_Lumpur">kuala lumpur [hello]</option>
+          <option value="Africa/Johannesburg">johannesburg [sawubona]</option>
         </select>
       </div>
       <a href="index.html"><i class="fa-solid fa-map-pin"></i></a>
@@ -67,8 +71,18 @@
     </div>
     <p class="credit">
       <small
-        >this project was coded by <strong>lisa candemyr</strong> and is
+        >this project was coded by
+        <strong
+          ><a
+            class="web-link"
+            href="httpS://www.lisaviktoria.com"
+            target="_blank"
+            >lisa candemyr</a
+          ></strong
+        >
+        and is
         <a
+          class="credit-link"
           href="https://github.com/lisacandemyr/API-world-clock"
           target="_blank"
           >open-sourced on github</a
