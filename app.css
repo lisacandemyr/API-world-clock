@@ -49,11 +49,6 @@ h1 {
   opacity: 0.4;
 }
 
-.listed-cities {
-  position: relative;
-  top: 25px;
-}
-
 h2 {
   color: whitesmoke;
   font-family: "Roboto Condensed", sans-serif;
@@ -61,12 +56,13 @@ h2 {
   left: 10px;
   line-height: 5px;
   text-align: left;
+  text-transform: lowercase;
 }
 
 .cities {
   margin: 0 auto;
   position: relative;
-  top: -680px;
+  top: -650px;
   width: 305px;
 }
 
